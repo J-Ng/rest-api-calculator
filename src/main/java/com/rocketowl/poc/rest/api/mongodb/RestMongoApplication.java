@@ -1,13 +1,13 @@
-package com.blackcurrant.poc.rest.api.calculator.restcalculator;
+package com.rocketowl.poc.rest.api.mongodb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestCalculatorApplication {
+public class RestMongoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestCalculatorApplication.class, args);
+		SpringApplication.run(RestMongoApplication.class, args);
 	}
 
 }

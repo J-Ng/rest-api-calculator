@@ -8,13 +8,13 @@
 		<version>2.5.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.blackcurrant.poc.rest.api.calculator</groupId>
-	<artifactId>rest-calculator</artifactId>
+	<groupId>com.rocketowl.poc.rest.api.mongodb</groupId>
+	<artifactId>rest-mongodb-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-calculator</name>
-	<description>Rest Api that will perform calculator function</description>
+	<name>rest-mongo</name>
+	<description>Rest Api that will connect and return mongodb output</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -27,6 +27,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>

@@ -1,4 +1,4 @@
-package com.blackcurrant.poc.rest.api.calculator.restcalculator;
+package com.rocketowl.poc.rest.api.mongodb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
